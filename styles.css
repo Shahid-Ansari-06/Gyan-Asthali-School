@@ -27,6 +27,11 @@ body::-webkit-scrollbar-track {
   color: #000;
 }
 
+.heading a {
+  text-decoration: none;
+
+}
+
 @media (min-width: 1200px) {
     .hamburger{
       display: none;
@@ -381,6 +386,11 @@ body::-webkit-scrollbar-track {
 }
 
     @media (min-width: 0px) and (max-width: 1199px) {
+      .heading a {
+        text-decoration: none;
+        color: #000;
+      }
+
         .nav-menu {
         display: flex;
         flex-direction: column;
@@ -456,7 +466,7 @@ body::-webkit-scrollbar-track {
 
       .hamburger{
         float: right;
-        margin-top: 3px;
+        margin-top: 3.5px;
       }
 
       .heading{
@@ -1164,3 +1174,91 @@ body::-webkit-scrollbar-track {
         font-size: 1em;
     }
   }
+
+  .about-container {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.about-container h1 {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 40px;
+    font-family: 'Poppins','Philosopher', sans-serif;
+}
+
+.about-container h1 span {
+    color: red;
+}
+
+.image-text-about-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-text-about-container img {
+    flex: 1;
+    max-width: 400px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.text-right {
+    flex: 2;
+    text-align: justify;
+    line-height: 1.5;
+    text-underline-offset: 5px;
+    word-spacing: 5px;
+    color: #333;
+}
+
+.below-text {
+  margin-top: -25px;
+  padding: 15px 0 0;
+  border-top: 1px solid #ddd;
+}
+
+.below-text p {
+  line-height: 1.5;
+  text-align: justify;
+  text-underline-offset: 2.5px;
+  word-spacing: 2.5px;
+}
+
+.ending-text {
+    margin-bottom: 0px;
+}
+
+.ending-text span {
+    line-height: 2;
+    padding: 5px 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+}
+
+@media (max-width: 768px) {
+    .about-container h1 {
+        font-size: 25px;
+        margin-top: -20px;
+    }
+
+    .image-text-about-container {
+        flex-direction: column;
+        text-align: center;
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .image-text-about-container img {
+        margin: 0 auto;
+    }
+}
