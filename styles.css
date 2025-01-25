@@ -308,9 +308,9 @@ body::-webkit-scrollbar-track {
   height: 300px;
   margin-top: 10px;
   border: none;
-}
   }
-  
+}
+
 .notice-container1 {
   min-height: 200px;
   max-height: 300px;
@@ -328,7 +328,7 @@ body::-webkit-scrollbar-track {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  animation: scrollNotices 10s linear infinite;
+  animation: scrollNotices 15s linear infinite;
 }
 
 .notice-container1:hover .notices1 {
@@ -336,6 +336,7 @@ body::-webkit-scrollbar-track {
 }
 
 .notices1 li {
+  width: 95%;
   padding: 10px 15px;
   display: flex;
   justify-content: space-between;
@@ -344,7 +345,10 @@ body::-webkit-scrollbar-track {
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   color: #444;
+  text-align: justify;
   white-space: nowrap;
+  word-wrap: break-word;
+  white-space: normal;
 }
 
 .notices1 li:hover {
@@ -357,6 +361,8 @@ body::-webkit-scrollbar-track {
   font-weight: bold;
   color: #00367b;
   font-size: 1em;
+  line-height: 1.5;
+  margin-right: 15px;
 }
 
 .date {
@@ -472,7 +478,7 @@ body::-webkit-scrollbar-track {
       .notice {
         display: inline-block;
         white-space: nowrap;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         color: #000000;
         animation: moveText 15s linear infinite;
       }
@@ -489,6 +495,7 @@ body::-webkit-scrollbar-track {
       .carousel-container {
         width: 99%;
         margin: auto;
+        margin-top: 40px;
         overflow: hidden;
         position: relative;
       }
@@ -800,6 +807,7 @@ body::-webkit-scrollbar-track {
 }
 
 .message {
+  text-align: justify;
   font-size: 1rem;
   color: #000000;
   margin-top: 5px;
