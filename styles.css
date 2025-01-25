@@ -1073,7 +1073,7 @@ body::-webkit-scrollbar-track {
 }
 
 .footer {
-    background: linear-gradient(135deg, #1e3b72e8, #2a5298f0);
+  background-color: #021636;
     color: #fff;
     padding: 25px 25px;
 }
