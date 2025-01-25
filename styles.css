@@ -493,7 +493,7 @@ body::-webkit-scrollbar-track {
       .heading img {
         width: 275px;
         margin-top: 6.5px;
-        margin-left: 1.5px;
+        margin-left: -3px;
       }
 
       .drop-down-navbar {
