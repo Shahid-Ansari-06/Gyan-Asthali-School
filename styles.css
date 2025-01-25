@@ -338,7 +338,7 @@ body::-webkit-scrollbar-track {
   flex-wrap: wrap;
   text-align: center;
   gap: 75px;
-  background: #fff;
+  background: #fddbac17;
 }
 
 .app-description {
@@ -384,68 +384,6 @@ body::-webkit-scrollbar-track {
 
 .download-img img{
   width: 175px;
-}
-
-.counselling {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 35vh;
-  margin-bottom: 5px;
-  background-color: #1f959921;
-  font-family: Arial, sans-serif;
-}
-
-.counselling-section {
-  text-align: center;
-  padding: 20px;
-  border-radius: 10px;
-  width: 90%;
-  max-width: 800px;
-  margin-bottom: -5px;
-}
-
-.counselling-section h1 {
-  font-size: 1.75rem;
-  font-family: 'Poppins','Philosopher', sans-serif;
-  color: #4b372a;
-  margin-bottom: 10px;
-  margin-top: -10px;
-}
-
-.counselling-section p {
-  font-size: 1rem;
-  color: #7d7d7d;
-  margin-bottom: 20px;
-}
-
-.buttonsss {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-}
-
-.btns {
-  padding: 10px 20px;
-  font-size: 1rem;
-  text-decoration: none;
-  border-radius: 5px;
-  color: #ffffff;
-  font-weight: bold;
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
-
-.btns.enroll {
-  background: linear-gradient(to right, #e63946, #ff6b6b);
-}
-
-.btns.contactsss {
-  background: linear-gradient(to right, #512da8, #673ab7);
-}
-
-.btns:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
   }
 
@@ -784,7 +722,7 @@ body::-webkit-scrollbar-track {
   flex-wrap: wrap;
   padding: 20px;
   text-align: center;
-  background: #fff;
+  background-color: #fddbac17;
 }
 
 .app-description {
@@ -801,7 +739,6 @@ body::-webkit-scrollbar-track {
 }
 
 .app-description h2 {
-  margin-top: 10px;
   font-size: 25px;
   font-family: 'Poppins','Philosopher', sans-serif;
 }
@@ -834,68 +771,7 @@ body::-webkit-scrollbar-track {
   margin-top: -10px;
   margin-bottom: 5px;
 }
-
-.counselling {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-  background-color: #1f959921;
-  font-family: Arial, sans-serif;
-  margin: 0;
-}
-
-.counselling-section {
-  text-align: center;
-  padding: 20px;
-  border-radius: 10px;
-  width: 90%;
-  max-width: 800px;
-}
-
-.counselling-section h1 {
-  font-size: 1.75rem;
-  font-family: 'Poppins','Philosopher', sans-serif;
-  color: #4b372a;
-  margin-bottom: 10px;
-  margin-top: -10px;
-}
-
-.counselling-section p {
-  font-size: 1rem;
-  color: #7d7d7d;
-  margin-bottom: 20px;
-}
-
-.buttonsss {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-}
-
-.btns {
-  padding: 10px 20px;
-  font-size: 1rem;
-  text-decoration: none;
-  border-radius: 5px;
-  color: #ffffff;
-  font-weight: bold;
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
-
-.btns.enroll {
-  background: linear-gradient(to right, #e63946, #ff6b6b);
-}
-
-.btns.contactsss {
-  background: linear-gradient(to right, #512da8, #673ab7);
-}
-
-.btns:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-    }
+  }
 
 @media (max-width: 768px) {
   .container12345 {
