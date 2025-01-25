@@ -32,6 +32,12 @@ body::-webkit-scrollbar-track {
 
 }
 
+@media (max-width: 1500px) {
+  .drop-down-navbar .nav-get-smaller {
+    font-size: 22.5px;
+  }
+}
+
 @media (min-width: 1200px) {
     .hamburger{
       display: none;
@@ -43,16 +49,19 @@ body::-webkit-scrollbar-track {
     }
 
     .heading{
-        background-color: #ffffff;
-        margin-left: -10px;
-        margin-top: -10px;
+        background-color: #12396D;
         height: 110px;
+        z-index: 1000;
     }
 
     .heading img{
-      width: 450px;
-      margin-top: -37.5px;
-      margin-left: 30px;
+      width: 525px;
+      margin-top: -47.5px;
+      margin-left: 15px;
+    }
+
+    .drop-down-navbar .dropdown a {
+      color: #fff;
     }
 
     .drop-down-navbar a {
@@ -61,10 +70,14 @@ body::-webkit-scrollbar-track {
       z-index: 1000;
     }
 
+    .dropdown .dropdown-content li a {
+      color: #000;
+    }
+
     .drop-down-navbar {
       display: flex;
-      margin-left: 490px;
-      margin-top: -55px;
+      margin-left: 500px;
+      margin-top: -47.5px;
       margin-bottom: 30px;
       font-size: 25px;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -73,7 +86,7 @@ body::-webkit-scrollbar-track {
       list-style: none;
       z-index: 1000;
     }
-    
+
 .dropdown {
   position: relative;
 }
@@ -83,6 +96,7 @@ body::-webkit-scrollbar-track {
   max-height: 0;
   overflow: hidden;
   text-align: center;
+  color: #000;
   background-color: #dfdfdf;
   padding: 0 20px;
   list-style: none;
@@ -96,11 +110,13 @@ body::-webkit-scrollbar-track {
 .dropdown:hover .dropdown-content {
   max-height: 200px;
   padding: 20px;
+  z-index: 1000;
 }
 
 .dropdown-content li {
   color: #000000;
   padding: 10px 0;
+  z-index: 1000;
 }
 
 .arrow {
@@ -140,8 +156,8 @@ body::-webkit-scrollbar-track {
 
     .btn{
       margin-right: 30px;
-      margin-top: 17px;
-      font-size: 20px;
+      margin-top: 11.5px;
+      font-size: 22.5px;
       gap: 25px;
         background: transparent;
         border: none;
@@ -192,7 +208,7 @@ body::-webkit-scrollbar-track {
   
       .carousel {
         display: flex;
-        margin-top: 15px;
+        margin-top: 5px;
         transition: transform 1s ease-in-out;
       }
   
@@ -420,9 +436,9 @@ body::-webkit-scrollbar-track {
       }
 
       .heading img {
-        width: 225px;
-        margin-top: 7px;
-        margin-left: 7.5px;
+        width: 250px;
+        margin-top: 8.5px;
+        margin-left: 0px;
       }
 
       .drop-down-navbar {
@@ -439,14 +455,14 @@ body::-webkit-scrollbar-track {
         font-size: 2rem;
         cursor: pointer;
         display: inline-block;
-        color: #333;
+        color: #ffffff;
         padding: 0.5rem 1rem;
         transition: transform 0.3s ease;
       }
 
       .hamburger:hover {
         transform: scale(1.1);
-        color: #555;
+        color: #ebebeb;
       }
 
       .nav-menu .btn {
@@ -470,7 +486,7 @@ body::-webkit-scrollbar-track {
       }
 
       .heading{
-        background: #fff;
+        background: #12396D;
         margin-top: -3px;
         width: 100%;
         height: 65px;
@@ -479,6 +495,7 @@ body::-webkit-scrollbar-track {
       .notice-container {
         width: 100%;
         background: #f3f3f3;
+        margin-top: 5px;
         float: right;
         overflow: hidden;
         border: none;
@@ -505,7 +522,7 @@ body::-webkit-scrollbar-track {
       .carousel-container {
         width: 99%;
         margin: auto;
-        margin-top: 40px;
+        margin-top: 35px;
         overflow: hidden;
         position: relative;
       }
