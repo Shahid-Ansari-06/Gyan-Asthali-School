@@ -942,14 +942,14 @@ body::-webkit-scrollbar-track {
   border-radius: 25px;
   border: 3px solid #00367b;
   object-fit: cover;
-  margin-bottom: 5px;
+  margin-bottom: 2.5px;
 }
 
 .message {
-  text-align: justify;
-  font-size: 1rem;
-  color: #000000;
-  margin-top: 5px;
+  text-align: center;
+  font-size: 1.25rem;
+  color: #00367b;
+  margin-top: 2.5px;
 }
 
 .lower-img {
@@ -1318,13 +1318,23 @@ body::-webkit-scrollbar-track {
 
 .about-container h1 {
     text-align: center;
+    color: #002a5c;
     margin-top: 0px;
     font-size: 40px;
     font-family: 'Poppins','Philosopher', sans-serif;
 }
 
-.about-container h1 span {
+.about-container h1 .about-red {
     color: red;
+}
+
+.about-container h1 span {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  letter-spacing: -5.5px;
+  opacity: 0;
+  animation: drop 1s ease forwards;
 }
 
 .image-text-about-container {
