@@ -234,8 +234,7 @@ body::-webkit-scrollbar-track {
 .welcome-section h1 {
   text-align: center;
   color: #00367b;
-  font-size: 50px;
-  text-transform: uppercase;
+  font-size: 55px;
   font-family: 'Poppins','Philosopher', sans-serif;
 }
 
@@ -244,7 +243,7 @@ body::-webkit-scrollbar-track {
   justify-content: space-between;
   width: 95%;
   margin: 0 auto;
-  margin-top: -5px;
+  margin-top: -15px;
   gap: 20px;
   flex-wrap: wrap;
 }
@@ -610,8 +609,7 @@ body::-webkit-scrollbar-track {
 .welcome-section h1 {
   text-align: center;
   color: #00367b;
-  font-size: 50px;
-  text-transform: uppercase;
+  font-size: 45px;
   font-family: 'Poppins','Philosopher', sans-serif;
 }
 
